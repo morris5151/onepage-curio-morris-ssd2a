@@ -1,3 +1,4 @@
+
 .navimg{
     background: url('../img/head.png') no-repeat;
     background-size: cover;
@@ -8,11 +9,11 @@
 }
 header {
     background: #00367c;
-    height: 800px;
+    height: 880px;
     padding-top: 20px;
 }
 .imglogo{
-    height: 50px;
+    height: 60px;
     filter: brightness(1.1);
     margin-bottom: 5px;
 
@@ -20,8 +21,8 @@ header {
 .navwrapper{
     display: flex;
     justify-content: space-between;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
     width: 100%;
 
 }
@@ -58,6 +59,34 @@ li a{
     color: #00367c;
 
 }
+
 body{
 
+}
+
+.headerbody{
+    margin-top: 170px;
+    margin-left: 70px;
+
+}
+.videocurio{
+    object-fit: cover;
+}
+.textcontainervideo{
+    display: flex;
+    flex-direction: row;
+    font-family: sans-serif;
+    color: #00367c;
+    filter: brightness(0.8);
+
+}
+.textunderright{
+    margin-left: 90px;
+}
+.texttopfix{
+    margin-top: -25px;
+    font-size: 25px;
+}
+.texttitlefix{
+    font-size: 25px;
 }
