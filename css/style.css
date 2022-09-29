@@ -1,4 +1,5 @@
-
+ @font-face { font-family: Fellix-Regular; src: url('../font/Fellix-Regular.otf'); } 
+ @font-face { font-family: Fellix-Bold; font-weight: bold; src: url('../font/Fellix-Bold.otf');}
 .navimg{
     background: url('../img/head.png') no-repeat;
     background-size: cover;
@@ -48,8 +49,9 @@ header {
     justify-content: space-between;
     align-items: center;
     font-size: 30px;
-    font-family: sans-serif;
+    font-family: Fellix-Bold;
     font-weight: bold;
+    margin-top: -5px;
 
 
 
@@ -65,9 +67,9 @@ body{
 }
 
 .headerbody{
-    margin-top: 170px;
+    
     margin-left: 70px;
-
+    margin-top: 170px;
 }
 .videocurio{
     object-fit: cover;
@@ -89,4 +91,29 @@ body{
 }
 .texttitlefix{
     font-size: 25px;
+}
+.containerbody{
+    display: flex;
+    flex-direction: row;
+
+}
+.x{
+    margin-top: -20px;
+    font-family: Fellix-Bold;
+    font-size: 23px;
+}
+.textbodycontainer{
+    margin-left: 160px;
+    color: white;
+    margin-top: 90px;
+}
+
+.titlebody{
+    font-size: 80px;   
+    font-family: Fellix-Bold;
+   
+}
+.para{
+    font-size: 23px;
+     font-family: Fellix-Regular;
 }
