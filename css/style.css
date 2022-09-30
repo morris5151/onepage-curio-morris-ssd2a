@@ -67,12 +67,13 @@ body{
 }
 
 .headerbody{
-    
+
     margin-left: 70px;
     margin-top: 170px;
 }
 .videocurio{
     object-fit: cover;
+
 }
 .textcontainervideo{
     display: flex;
@@ -92,7 +93,7 @@ body{
     filter: brightness(0.8);
     font-size: 50px;
     text-shadow:  3px 3px  white;
-    
+
 }
 .textB{
     margin-left: 70px;
@@ -108,6 +109,7 @@ body{
 .containerbody{
     display: flex;
     flex-direction: row;
+    
 
 }
 .x{
