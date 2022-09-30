@@ -16,8 +16,7 @@ html {
   font-size: 1em;
   line-height: 1.4;
 }
- @font-face { font-family: Delicious; src: url('font/Fellix-Regular.otf'); } 
- @font-face { font-family: Delicious; font-weight: bold; src: url('font/Fellix-Bold.otf');}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
