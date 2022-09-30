@@ -77,20 +77,31 @@ body{
 .textcontainervideo{
     display: flex;
     flex-direction: row;
-    font-family: sans-serif;
+    font-family: Fellix-Regular;
     color: #00367c;
     filter: brightness(0.8);
+    margin-top: 15px;
+    margin-left:    10px;
 
 }
-.textunderright{
-    margin-left: 90px;
+.team{
+    display: flex;
+    justify-content: center;
+    font-family: Fellix-Bold;
+    color: #00367c;
+    filter: brightness(0.8);
+    font-size: 50px;
 }
-.texttopfix{
-    margin-top: -25px;
+.textB{
+    margin-left: 70px;
+    margin-top: 2px;
+}
+.textpara{
     font-size: 25px;
 }
-.texttitlefix{
+.texttitle{
     font-size: 25px;
+    font-family: Fellix-Bold;
 }
 .containerbody{
     display: flex;
@@ -115,5 +126,6 @@ body{
 }
 .para{
     font-size: 23px;
+    margin-top: 20px;
      font-family: Fellix-Regular;
 }
