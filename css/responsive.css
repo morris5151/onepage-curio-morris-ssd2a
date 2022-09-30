@@ -29,6 +29,7 @@
       background:   #00e069 ;
       padding:  50px;
       border-radius :   10%;
+
     }
   
     .container  {
@@ -55,6 +56,7 @@
     .textbodycontainer  {
       margin:   0;
       max-width: 600px;
+      margin-top:   40px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -77,3 +79,10 @@
 
 
 
+@media screen and (max-width: 858px){
+.videocurio {
+  height:  425px;
+  width:  660px;
+}
+
+}
