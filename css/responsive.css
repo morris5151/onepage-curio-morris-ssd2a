@@ -5,13 +5,30 @@
 
 @media screen and (max-width: 1440px) {
   .x{
-    font-size:  15px;
+    font-size:  23px; 
   }
   .para{
-    font-size:  15px;
+    font-size:  23px;
   }
   .titlebody  {
     font-size:  60px;
+  }
+  .textbodycontainer  {
+    margin-right:   20px;
+  }
+}
+@media screen and (max-width: 1370px) {
+  .x{
+    font-size:  18px; 
+  }
+  .para{
+    font-size:  18px;
+  }
+  .titlebody  {
+    font-size:  50px;
+  }
+  .textbodycontainer  {
+    margin-right:   20px;
   }
 }
 @media screen and (max-width: 1190px){
@@ -73,7 +90,7 @@
     font-size:  80px;
   }
   body::before{
-  height:   70%;
+  height:   69%;
 
   }
 
